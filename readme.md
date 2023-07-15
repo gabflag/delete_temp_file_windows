@@ -3,9 +3,12 @@
 # Language used:
 Python 3.11.2
 Runs on your Python interpreter.
+Made executable with pyinstaller
+You can use the executable named deleteTempFile.exe
 
 # About the program:
 This script allows you to clean the temporary folders on your system, including the logged-in user's local Temp folder and the Windows Temp folder. It deletes files and folders within these directories, freeing up disk space.
+pyinstaller --onefile deleteTempFile.py
 
 # Functions:
 
