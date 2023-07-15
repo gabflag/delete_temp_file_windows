@@ -45,3 +45,13 @@ pyinstaller --onefile deleteTempFile.py
 
 Some files or folders within the Temp folders may be in use by other processes and cannot be deleted until those processes are terminated. Make sure no critical process is using these files before running this script.
 
+# Developer notes:
+
+Perhaps it is more professional to use the standard Windows Disk Cleanup, however, this executable performs a task in a simpler way for lay users, unlike the amount of options that are presented in the standard Windows Disk Cleanup.
+
+# Windows Disk Cleanup
+![image](https://github.com/gabflag/deleteTempFileWithPython/assets/95552879/16b7d01e-3980-403d-95d7-0b4aa3e25ee5)
+
+# deleteTempFiles.exe
+
+![image](https://github.com/gabflag/deleteTempFileWithPython/assets/95552879/714d0fb7-42ce-409a-b93a-a72634935a6b)
