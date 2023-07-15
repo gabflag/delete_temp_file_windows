@@ -43,7 +43,7 @@ pyinstaller --onefile deleteTempFile.py
 
 # Notes:
 
-Some files or folders within the Temp folders may be in use by other processes and cannot be deleted until those processes are terminated. Make sure no critical process is using these files before running this script.
+Some files or folders within the Temp folders may be in use by other processes and cannot be deleted until those processes are terminated. Make sure no critical process is using these files before running this script. Maybe your antivirus blocked the program.
 
 # Developer notes:
 
