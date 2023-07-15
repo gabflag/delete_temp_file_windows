@@ -12,9 +12,10 @@ Este script permite limpar as pastas temporárias do seu sistema, incluindo a pa
 # Funções:
 
 # main:
-    A função main chama as outras duas funções (clean_windows_temp_folder && clean_local_temp_folder). Colocado um tempo de espera de 60 segundos para apreciação do usuário dos arquivos excluidos.
+    A função main chama as outras duas funções (clean_windows_temp_folder && clean_local_temp_folder).
+    Colocado um tempo de espera de 60 segundos para apreciação do usuário dos arquivos excluidos.
 
-clean_local_temp_folder:
+# clean_local_temp_folder:
     Obtém o caminho para a pasta Temp do usuário local usando a variável de ambiente LOCALAPPDATA.
     Percorre a estrutura de diretórios dentro da pasta Temp usando os.walk().
     Exclui os arquivos dentro de cada diretório usando os.remove().
